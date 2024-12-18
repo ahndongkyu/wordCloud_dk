@@ -29,9 +29,10 @@ CORS(app)
 client_id = "1EMqh9I3E2bRjOi9G8M6"
 client_secret = "A1flID3HVB"
 
-# 폰트 및 마스크 이미지 경로 설정
-FONT_PATH = "./font/NotoSansKR-VariableFont_wght.ttf"
-MASK_IMAGE_PATH = "./image/Tree.png"
+# BASE_DIR 설정 (프로젝트 최상위 폴더)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+FONT_PATH = os.path.join(BASE_DIR, "font", "NotoSansKR-VariableFont_wght.ttf")
+MASK_IMAGE_PATH = os.path.join(BASE_DIR, "image", "Tree.png")
 
 # 워드클라우드 색상 설정
 tree_colors = ["#008000", "#FF0000", "#8B4513"]  # 초록, 빨강, 갈색
@@ -40,7 +41,7 @@ def tree_colors_func(word, font_size, position, orientation, random_state=None, 
 
 # 네이버 검색 API를 사용하여 뉴스 가져오기
 def fetch_naver_news(display=5):
-    keyword = "분리수거"  # 검색 키워드를 고정
+    keyword = "분리수거"  # 검색 키워드 고정
     url = "https://openapi.naver.com/v1/search/news.json"
     headers = {
         "X-Naver-Client-Id": client_id,
