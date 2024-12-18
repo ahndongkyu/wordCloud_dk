@@ -32,12 +32,12 @@ client_secret = "A1flID3HVB"
 # BASE_DIR 설정 (프로젝트 최상위 폴더)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONT_PATH = os.path.join(BASE_DIR, "font", "NotoSansKR-VariableFont_wght.ttf")
-MASK_IMAGE_PATH = os.path.join(BASE_DIR, "image", "Tree.png")
+MASK_IMAGE_PATH = os.path.join(BASE_DIR, "image", "Recycle.png")  # Recycle.png로 변경
 
-# 워드클라우드 색상 설정
-tree_colors = ["#008000", "#FF0000", "#8B4513"]  # 초록, 빨강, 갈색
-def tree_colors_func(word, font_size, position, orientation, random_state=None, **kwargs):
-    return random.choice(tree_colors)
+# 워드클라우드 색상 설정 (초록색과 파란색만 사용)
+recycle_colors = ["#008000", "#0000FF", "#FFAA00"]
+def recycle_colors_func(word, font_size, position, orientation, random_state=None, **kwargs):
+    return random.choice(recycle_colors)
 
 # 네이버 검색 API를 사용하여 뉴스 가져오기
 def fetch_naver_news(display=5):
@@ -77,7 +77,7 @@ def generate_wordcloud(word_freq, output_path):
             font_path=FONT_PATH,
             background_color="white",
             mask=mask,
-            color_func=tree_colors_func
+            color_func=recycle_colors_func  # 초록색과 파란색만 사용
         ).generate_from_frequencies(word_freq)
         wordcloud.to_file(output_path)
         logging.info("워드클라우드 이미지 생성 완료")

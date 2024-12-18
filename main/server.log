@@ -16,3 +16,280 @@
 2024-12-18 19:22:07,479 - DEBUG - STREAM b'IDAT' 54 8192
 2024-12-18 19:22:07,717 - INFO - 워드클라우드 이미지 생성 완료
 2024-12-18 19:22:07,717 - INFO - 127.0.0.1 - - [18/Dec/2024 19:22:07] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 19:23:46,889 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.116:5001
+2024-12-18 19:23:46,889 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-18 19:23:46,889 - INFO -  * Restarting with stat
+2024-12-18 19:23:47,068 - WARNING -  * Debugger is active!
+2024-12-18 19:23:47,074 - INFO -  * Debugger PIN: 776-930-596
+2024-12-18 19:23:50,787 - INFO - 127.0.0.1 - - [18/Dec/2024 19:23:50] "GET / HTTP/1.1" 200 -
+2024-12-18 19:23:53,074 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:23:53,082 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:23:53,201 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1223
+2024-12-18 19:23:53,203 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:23:53,217 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 19:23:53,217 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 19:23:53,217 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 19:23:53,459 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 19:23:53,459 - INFO - 127.0.0.1 - - [18/Dec/2024 19:23:53] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 19:24:05,749 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:24:05,751 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:24:05,838 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1222
+2024-12-18 19:24:05,838 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:24:05,839 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 19:24:05,839 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 19:24:05,840 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 19:24:06,103 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 19:24:06,103 - INFO - 192.168.0.116 - - [18/Dec/2024 19:24:06] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 19:24:06,129 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:24:06,130 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:24:06,218 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1223
+2024-12-18 19:24:06,218 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:24:06,219 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 19:24:06,219 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 19:24:06,219 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 19:24:06,450 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 19:24:06,450 - INFO - 192.168.0.116 - - [18/Dec/2024 19:24:06] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 19:51:41,901 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.116:5001
+2024-12-18 19:51:41,901 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-18 19:51:41,901 - INFO -  * Restarting with stat
+2024-12-18 19:51:42,083 - WARNING -  * Debugger is active!
+2024-12-18 19:51:42,089 - INFO -  * Debugger PIN: 776-930-596
+2024-12-18 19:51:44,252 - INFO - 127.0.0.1 - - [18/Dec/2024 19:51:44] "GET / HTTP/1.1" 200 -
+2024-12-18 19:51:46,919 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:51:46,929 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:51:47,028 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1266
+2024-12-18 19:51:47,029 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:51:47,047 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-12-18 19:51:47,047 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-12-18 19:51:47,047 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-12-18 19:51:47,047 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-12-18 19:51:47,047 - DEBUG - tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+2024-12-18 19:51:47,047 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+2024-12-18 19:51:48,098 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 19:51:48,099 - INFO - 127.0.0.1 - - [18/Dec/2024 19:51:48] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 19:52:53,391 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.116:5001
+2024-12-18 19:52:53,391 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-18 19:52:53,392 - INFO -  * Restarting with stat
+2024-12-18 19:52:53,576 - WARNING -  * Debugger is active!
+2024-12-18 19:52:53,583 - INFO -  * Debugger PIN: 776-930-596
+2024-12-18 19:52:55,238 - INFO - 127.0.0.1 - - [18/Dec/2024 19:52:55] "GET / HTTP/1.1" 200 -
+2024-12-18 19:52:58,788 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:52:58,796 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:52:58,911 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1271
+2024-12-18 19:52:58,912 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:52:58,925 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 19:52:58,925 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 19:52:58,925 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 19:52:59,198 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 19:52:59,198 - INFO - 127.0.0.1 - - [18/Dec/2024 19:52:59] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 19:53:51,055 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.116:5001
+2024-12-18 19:53:51,055 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-18 19:53:51,056 - INFO -  * Restarting with stat
+2024-12-18 19:53:51,233 - WARNING -  * Debugger is active!
+2024-12-18 19:53:51,239 - INFO -  * Debugger PIN: 776-930-596
+2024-12-18 19:53:56,889 - INFO - 127.0.0.1 - - [18/Dec/2024 19:53:56] "GET / HTTP/1.1" 200 -
+2024-12-18 19:54:01,520 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:54:01,528 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:54:01,625 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1264
+2024-12-18 19:54:01,626 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:54:01,638 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 19:54:01,639 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 19:54:01,639 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 19:54:01,876 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 19:54:01,876 - INFO - 127.0.0.1 - - [18/Dec/2024 19:54:01] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 19:54:12,167 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:54:12,169 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:54:12,272 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1335
+2024-12-18 19:54:12,272 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:54:12,273 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 19:54:12,273 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 19:54:12,273 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 19:54:12,534 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 19:54:12,534 - INFO - 192.168.0.116 - - [18/Dec/2024 19:54:12] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 19:54:12,569 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:54:12,570 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:54:12,657 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1265
+2024-12-18 19:54:12,658 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:54:12,658 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 19:54:12,658 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 19:54:12,658 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 19:54:12,886 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 19:54:12,886 - INFO - 192.168.0.116 - - [18/Dec/2024 19:54:12] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 19:57:01,588 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-18 19:57:01,636 - INFO -  * Restarting with stat
+2024-12-18 19:57:01,904 - WARNING -  * Debugger is active!
+2024-12-18 19:57:01,910 - INFO -  * Debugger PIN: 776-930-596
+2024-12-18 19:57:06,145 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.116:5001
+2024-12-18 19:57:06,145 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-18 19:57:06,145 - INFO -  * Restarting with stat
+2024-12-18 19:57:06,321 - WARNING -  * Debugger is active!
+2024-12-18 19:57:06,327 - INFO -  * Debugger PIN: 776-930-596
+2024-12-18 19:57:12,685 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:57:12,697 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:57:12,800 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1335
+2024-12-18 19:57:12,802 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:57:12,817 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 19:57:12,817 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 19:57:12,818 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 19:57:12,996 - ERROR - Failed to generate wordcloud: unknown color specifier: 'ffd700'
+2024-12-18 19:57:12,997 - INFO - 127.0.0.1 - - [18/Dec/2024 19:57:12] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 19:57:14,339 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:57:14,341 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:57:14,441 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1266
+2024-12-18 19:57:14,442 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:57:14,444 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 19:57:14,444 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 19:57:14,444 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 19:57:14,620 - ERROR - Failed to generate wordcloud: unknown color specifier: 'ffd700'
+2024-12-18 19:57:14,621 - INFO - 127.0.0.1 - - [18/Dec/2024 19:57:14] "[36mGET /api/wordcloud HTTP/1.1[0m" 304 -
+2024-12-18 19:57:55,941 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-18 19:57:55,996 - INFO -  * Restarting with stat
+2024-12-18 19:57:56,256 - WARNING -  * Debugger is active!
+2024-12-18 19:57:56,262 - INFO -  * Debugger PIN: 776-930-596
+2024-12-18 19:58:01,693 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.116:5001
+2024-12-18 19:58:01,693 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-18 19:58:01,693 - INFO -  * Restarting with stat
+2024-12-18 19:58:01,872 - WARNING -  * Debugger is active!
+2024-12-18 19:58:01,878 - INFO -  * Debugger PIN: 776-930-596
+2024-12-18 19:58:02,860 - INFO - 127.0.0.1 - - [18/Dec/2024 19:58:02] "GET / HTTP/1.1" 200 -
+2024-12-18 19:58:04,987 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:58:04,996 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:58:05,083 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1334
+2024-12-18 19:58:05,084 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:58:05,097 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 19:58:05,097 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 19:58:05,097 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 19:58:05,355 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 19:58:05,356 - INFO - 127.0.0.1 - - [18/Dec/2024 19:58:05] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 19:58:13,756 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:58:13,758 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:58:13,805 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1334
+2024-12-18 19:58:13,806 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:58:13,807 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 19:58:13,807 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 19:58:13,807 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 19:58:14,066 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 19:58:14,066 - INFO - 192.168.0.116 - - [18/Dec/2024 19:58:14] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 19:58:14,095 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:58:14,096 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:58:14,182 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1335
+2024-12-18 19:58:14,182 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:58:14,183 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 19:58:14,183 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 19:58:14,183 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 19:58:14,415 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 19:58:14,415 - INFO - 192.168.0.116 - - [18/Dec/2024 19:58:14] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 19:58:34,275 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-18 19:58:34,346 - INFO -  * Restarting with stat
+2024-12-18 19:58:34,633 - WARNING -  * Debugger is active!
+2024-12-18 19:58:34,639 - INFO -  * Debugger PIN: 776-930-596
+2024-12-18 19:58:36,161 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:58:36,177 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:58:36,234 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1334
+2024-12-18 19:58:36,235 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:58:36,244 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 19:58:36,244 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 19:58:36,245 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 19:58:36,500 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 19:58:36,501 - INFO - 192.168.0.116 - - [18/Dec/2024 19:58:36] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 19:58:36,534 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:58:36,535 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:58:36,587 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1335
+2024-12-18 19:58:36,588 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:58:36,588 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 19:58:36,588 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 19:58:36,588 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 19:58:36,829 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 19:58:36,829 - INFO - 192.168.0.116 - - [18/Dec/2024 19:58:36] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 19:58:55,931 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-18 19:58:55,990 - INFO -  * Restarting with stat
+2024-12-18 19:58:56,180 - WARNING -  * Debugger is active!
+2024-12-18 19:58:56,185 - INFO -  * Debugger PIN: 776-930-596
+2024-12-18 19:58:58,209 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-18 19:58:58,249 - INFO -  * Restarting with stat
+2024-12-18 19:58:58,438 - WARNING -  * Debugger is active!
+2024-12-18 19:58:58,443 - INFO -  * Debugger PIN: 776-930-596
+2024-12-18 19:58:59,460 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-18 19:58:59,535 - INFO -  * Restarting with stat
+2024-12-18 19:58:59,782 - WARNING -  * Debugger is active!
+2024-12-18 19:58:59,788 - INFO -  * Debugger PIN: 776-930-596
+2024-12-18 19:59:00,225 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:59:00,245 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:59:00,304 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1334
+2024-12-18 19:59:00,304 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:59:00,309 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 19:59:00,309 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 19:59:00,309 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 19:59:00,559 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 19:59:00,559 - INFO - 192.168.0.116 - - [18/Dec/2024 19:59:00] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 19:59:00,601 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 19:59:00,602 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 19:59:00,647 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1334
+2024-12-18 19:59:00,647 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 19:59:00,647 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 19:59:00,647 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 19:59:00,648 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 19:59:00,883 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 19:59:00,883 - INFO - 192.168.0.116 - - [18/Dec/2024 19:59:00] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 20:00:08,680 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-18 20:00:08,757 - INFO -  * Restarting with stat
+2024-12-18 20:00:09,171 - WARNING -  * Debugger is active!
+2024-12-18 20:00:09,179 - INFO -  * Debugger PIN: 776-930-596
+2024-12-18 20:00:10,234 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 20:00:10,264 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 20:00:10,362 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1271
+2024-12-18 20:00:10,363 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 20:00:10,376 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 20:00:10,377 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 20:00:10,377 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 20:00:10,631 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 20:00:10,632 - INFO - 192.168.0.116 - - [18/Dec/2024 20:00:10] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 20:00:10,667 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 20:00:10,667 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 20:00:10,758 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1335
+2024-12-18 20:00:10,759 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 20:00:10,759 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 20:00:10,759 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 20:00:10,759 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 20:00:11,000 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 20:00:11,001 - INFO - 192.168.0.116 - - [18/Dec/2024 20:00:11] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 20:00:26,388 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-18 20:00:26,462 - INFO -  * Restarting with stat
+2024-12-18 20:00:26,796 - WARNING -  * Debugger is active!
+2024-12-18 20:00:26,802 - INFO -  * Debugger PIN: 776-930-596
+2024-12-18 20:00:28,285 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 20:00:28,307 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 20:00:28,477 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1272
+2024-12-18 20:00:28,478 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 20:00:28,497 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 20:00:28,497 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 20:00:28,497 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 20:00:28,762 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 20:00:28,763 - INFO - 192.168.0.116 - - [18/Dec/2024 20:00:28] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-18 20:00:28,792 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-18 20:00:28,801 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-18 20:00:28,900 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1272
+2024-12-18 20:00:28,901 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-18 20:00:28,901 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-18 20:00:28,901 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-18 20:00:28,901 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-18 20:00:29,125 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-18 20:00:29,125 - INFO - 192.168.0.116 - - [18/Dec/2024 20:00:29] "GET /api/wordcloud HTTP/1.1" 200 -
