@@ -549,3 +549,156 @@
 2024-12-19 12:09:53,686 - INFO - 네이버 뉴스 API 응답 데이터: {'lastBuildDate': 'Thu, 19 Dec 2024 12:09:53 +0900', 'total': 18933886, 'start': 1, 'display': 5, 'items': [{'title': '한화오션, 울산급 호위함 배치-Ⅳ 1·2번함 “스마트 호위함으로”…83...', 'originallink': 'https://www.munhwa.com/news/view.html?no=2024121901039930114005', 'link': 'https://n.news.naver.com/mnews/article/021/0002679175?sid=100', 'description': '또 병력자원이 감소할 미래 작전<b>환경</b>에서 인력절감을 고려한 함정설계와 함께 승조원의 운용·거주 편의성을 향상시킬 방안이 적용된다. 이밖에 적 사이버 위협 대응을 위한 사이버보안 관제체계와 함께 고도화된... ', 'pubDate': 'Thu, 19 Dec 2024 12:09:00 +0900'}, {'title': '소프트캠프 &quot;제품 곳곳에 제로트러스트 반영…MS 솔루션과 연동&quot;', 'originallink': 'https://zdnet.co.kr/view/?no=20241219112855', 'link': 'https://n.news.naver.com/mnews/article/092/0002357108?sid=105', 'description': '이에 SaaS <b>환경</b>에 연동 가능한 문서보안(DRM) 수요도 증가할 것입니다. 앞으로 제로트러스트 콘셉트를... 현재 SaaS <b>환경</b>이 확산하면서 기업은 마이크로소프트365, 세일즈포스, 구글 워크스페이스 등 다양한 글로벌 기업... ', 'pubDate': 'Thu, 19 Dec 2024 12:09:00 +0900'}, {'title': '&quot;마을 활동은 공동체를 살리는 일이에요&quot;', 'originallink': 'https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003090153&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news', 'link': 'https://n.news.naver.com/mnews/article/047/0002456927?sid=102', 'description': '마을만들기화성시민네트워크 대표, 화성의료사협 운영위원, <b>환경</b>운동연합 운영위원, 그물코 라디오 PD... &quot;우리 사회를 살아가는 데 있어서 조금 더 좋은 <b>환경</b>을 만들기 위해서는 사회 복지나 행정 정책 외에 마을 주민들이... ', 'pubDate': 'Thu, 19 Dec 2024 12:09:00 +0900'}, {'title': '&quot;일회용 봉투 사용 줄이자&quot; 캠페인 나선 고리원자력본부', 'originallink': 'https://www.sedaily.com/NewsView/2DI6KF474I', 'link': 'https://n.news.naver.com/mnews/article/011/0004429942?sid=102', 'description': '이날 고리본부는 기장시장번영회에 친<b>환경</b> 장바구니 1000개를 전달했으며 이상욱 고리본부장과 직원 봉사대는 시장 상인과 이용객들에게 탄소중립 생활 수칙 안내문과 친<b>환경</b> 장바구니를 나눠주며 생활 속 탄소중립... ', 'pubDate': 'Thu, 19 Dec 2024 12:09:00 +0900'}, {'title': "국립한밭대, '제2회 글로벌 교육혁신 국제심포지엄' 성료", 'originallink': 'https://daily.hankooki.com/news/articleView.html?idxno=1161386', 'link': 'https://daily.hankooki.com/news/articleView.html?idxno=1161386', 'description': '연구개발 <b>환경</b>을 다양화해야 하는 이유에 대해 설명하고 그에 따라 수립된 메리멕대의 전략을 발표했다. Chi-Jen Chen 대만 가오슝대학교 총장은 지역과 함께 발전하며 문화적 지속가능성과 친<b>환경</b>을 추구하는 가오슝대... ', 'pubDate': 'Thu, 19 Dec 2024 12:08:00 +0900'}]}
 2024-12-19 12:09:53,688 - ERROR - Failed to generate wordcloud: [Errno 2] No such file or directory: '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/image/Recycle.png'
 2024-12-19 12:09:53,689 - INFO - 192.168.0.116 - - [19/Dec/2024 12:09:53] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-19 12:17:59,416 - INFO - 워드클라우드 생성 요청을 처리합니다.
+2024-12-19 12:17:59,418 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 12:17:59,537 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%ED%99%98%EA%B2%BD&display=5&start=1&sort=date HTTP/11" 200 1496
+2024-12-19 12:17:59,538 - INFO - 네이버 뉴스 API 응답 데이터: {'lastBuildDate': 'Thu, 19 Dec 2024 12:17:59 +0900', 'total': 18933959, 'start': 1, 'display': 5, 'items': [{'title': '날뛰는 환율에 기름 부은 尹의 실패한 도박 [視리즈]', 'originallink': 'https://www.thescoop.co.kr/news/articleView.html?idxno=304258', 'link': 'https://n.news.naver.com/mnews/article/665/0000004200?sid=101', 'description': "대부분 대외 <b>환경</b>의 변화에 따른 거죠. 문제는 최근의 고환율과 환율 변동성 증가는 대외 <b>환경</b>보다는 국내 <b>환경</b> 변화에 원인이 있다는 점입니다. 바로 '12ㆍ3 내란 사태'입니다. 대외적으로 멀쩡하게 보였던... ", 'pubDate': 'Thu, 19 Dec 2024 12:17:00 +0900'}, {'title': '조이시티, 신사옥 이전 완료...&quot;업무 효율 증대 목표&quot;', 'originallink': 'https://www.fomos.kr/redirect/news_view?news_cate_id=11&entry_id=140765', 'link': 'https://m.sports.naver.com/esports/article/236/0000246658', 'description': '이번 사옥 이전은 회사의 지속적인 성장과 혁신을 위한 새로운 연구 개발(R&amp;D) <b>환경</b>을 구축하고, 경영 <b>환경</b> 개선 및 업무 효율 증대를 목표로 하고 있다. 신사옥은 직원들에게 최적화된 근무 <b>환경</b>과 함께 창의적이고... ', 'pubDate': 'Thu, 19 Dec 2024 12:17:00 +0900'}, {'title': '안동시, 2024년 건축행정평가 최우수기관상 수상', 'originallink': 'https://www.dkilbo.com/news/articleView.html?idxno=475567', 'link': 'https://www.dkilbo.com/news/articleView.html?idxno=475567', 'description': '안동시 정교순 건축과장은 &quot;이번 평가를 통해 다시 한번 건축행정의 내실을 다지고, 앞으로도 시민이 신뢰할 수 있는 건축<b>환경</b> 조성과 적극적이고 차별화된 건축행정 서비스 제공을 위해 노력하겠다&quot;라고 전했다.', 'pubDate': 'Thu, 19 Dec 2024 12:16:00 +0900'}, {'title': "계명대, '클라우드 보안 전문가 과정' 수료식 개최... 수료생 전원 취업", 'originallink': 'http://www.veritas-a.com/news/articleView.html?idxno=535866', 'link': 'http://www.veritas-a.com/news/articleView.html?idxno=535866', 'description': '계명대는 최적화된 최신형 PC 시스템을 구축하고 별도의 전용 교육 공간을 마련해 학습 <b>환경</b>을 조성했다. 김범준 계명대 산학부총장은 &quot;6개월간의 몰입 교육을 통해 기업이 필요로 하는 맞춤형 인재를 양성하며... ', 'pubDate': 'Thu, 19 Dec 2024 12:16:00 +0900'}, {'title': '의성군 사곡면, 취약계층 주거<b>환경</b> 개선 실시', 'originallink': 'https://www.dkilbo.com/news/articleView.html?idxno=475569', 'link': 'https://www.dkilbo.com/news/articleView.html?idxno=475569', 'description': '이번 봉사활동은 지역의 소외된 가정을 지원하고, 보다 쾌적한 생활<b>환경</b>을 제공하기 위한 목적으로... 시간과 재능 나눔을 해주신 봉사단원 덕분에 깨끗한 <b>환경</b>을 제공해 줄 수 있었다며 감사의 마음을 전한다&quot;라고 말했다.', 'pubDate': 'Thu, 19 Dec 2024 12:16:00 +0900'}]}
+2024-12-19 12:17:59,539 - ERROR - Failed to generate wordcloud: [Errno 2] No such file or directory: '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/image/Recycle.png'
+2024-12-19 12:17:59,540 - INFO - 192.168.0.116 - - [19/Dec/2024 12:17:59] "[36mGET /api/wordcloud HTTP/1.1[0m" 304 -
+2024-12-19 12:18:35,452 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-19 12:18:35,514 - INFO -  * Restarting with stat
+2024-12-19 12:18:35,787 - WARNING -  * Debugger is active!
+2024-12-19 12:18:35,805 - INFO -  * Debugger PIN: 776-930-596
+2024-12-19 12:19:17,318 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-19 12:19:17,366 - INFO -  * Restarting with stat
+2024-12-19 12:19:17,618 - WARNING -  * Debugger is active!
+2024-12-19 12:19:17,623 - INFO -  * Debugger PIN: 776-930-596
+2024-12-19 12:19:25,504 - INFO - 워드클라우드 생성 요청을 처리합니다.
+2024-12-19 12:19:25,508 - INFO - 뉴스 리스트 요청을 처리합니다.
+2024-12-19 12:19:25,513 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 12:19:25,513 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 12:19:25,809 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%ED%99%98%EA%B2%BD&display=10&start=1&sort=date HTTP/11" 200 2579
+2024-12-19 12:19:25,811 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-19 12:19:25,812 - INFO - 192.168.0.116 - - [19/Dec/2024 12:19:25] "GET /api/news HTTP/1.1" 200 -
+2024-12-19 12:19:25,835 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%ED%99%98%EA%B2%BD&display=5&start=1&sort=date HTTP/11" 200 1452
+2024-12-19 12:19:25,836 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-19 12:19:25,838 - ERROR - Failed to generate wordcloud: [Errno 2] No such file or directory: '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/image/Recycle.png'
+2024-12-19 12:19:25,840 - INFO - 192.168.0.116 - - [19/Dec/2024 12:19:25] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-19 12:19:25,956 - INFO - 워드클라우드 생성 요청을 처리합니다.
+2024-12-19 12:19:25,958 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 12:19:26,047 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%ED%99%98%EA%B2%BD&display=5&start=1&sort=date HTTP/11" 200 1443
+2024-12-19 12:19:26,049 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-19 12:19:26,049 - ERROR - Failed to generate wordcloud: [Errno 2] No such file or directory: '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/image/Recycle.png'
+2024-12-19 12:19:26,051 - INFO - 192.168.0.116 - - [19/Dec/2024 12:19:26] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-19 12:22:04,759 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-19 12:22:04,818 - INFO -  * Restarting with stat
+2024-12-19 12:22:05,110 - WARNING -  * Debugger is active!
+2024-12-19 12:22:05,116 - INFO -  * Debugger PIN: 776-930-596
+2024-12-19 12:29:47,474 - INFO - 워드클라우드 생성 요청을 처리합니다.
+2024-12-19 12:29:47,485 - INFO - 뉴스 리스트 요청을 처리합니다.
+2024-12-19 12:29:47,493 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 12:29:47,493 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 12:29:47,615 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%ED%99%98%EA%B2%BD&display=5&start=1&sort=date HTTP/11" 200 1345
+2024-12-19 12:29:47,615 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-19 12:29:47,616 - ERROR - Failed to generate wordcloud: [Errno 2] No such file or directory: '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/image/Recycle.png'
+2024-12-19 12:29:47,619 - INFO - 192.168.0.116 - - [19/Dec/2024 12:29:47] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-19 12:29:47,730 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%ED%99%98%EA%B2%BD&display=10&start=1&sort=date HTTP/11" 200 2432
+2024-12-19 12:29:47,732 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-19 12:29:47,734 - INFO - 192.168.0.116 - - [19/Dec/2024 12:29:47] "GET /api/news HTTP/1.1" 200 -
+2024-12-19 12:29:50,583 - INFO - 워드클라우드 생성 요청을 처리합니다.
+2024-12-19 12:29:50,585 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 12:29:50,678 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%ED%99%98%EA%B2%BD&display=5&start=1&sort=date HTTP/11" 200 1334
+2024-12-19 12:29:50,679 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-19 12:29:50,680 - ERROR - Failed to generate wordcloud: [Errno 2] No such file or directory: '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/image/Recycle.png'
+2024-12-19 12:29:50,682 - INFO - 192.168.0.116 - - [19/Dec/2024 12:29:50] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-19 12:42:35,093 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-19 12:42:35,160 - INFO -  * Restarting with stat
+2024-12-19 12:42:35,437 - WARNING -  * Debugger is active!
+2024-12-19 12:42:35,444 - INFO -  * Debugger PIN: 776-930-596
+2024-12-19 12:42:37,589 - INFO - 워드클라우드 생성 요청을 처리합니다.
+2024-12-19 12:42:37,592 - INFO - 뉴스 리스트 요청을 처리합니다.
+2024-12-19 12:42:37,594 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 12:42:37,594 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 12:42:37,772 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%ED%99%98%EA%B2%BD&display=5&start=1&sort=date HTTP/11" 200 1432
+2024-12-19 12:42:37,773 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%ED%99%98%EA%B2%BD&display=10&start=1&sort=date HTTP/11" 200 2388
+2024-12-19 12:42:37,773 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-19 12:42:37,774 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-19 12:42:37,776 - INFO - 192.168.0.116 - - [19/Dec/2024 12:42:37] "GET /api/news HTTP/1.1" 200 -
+2024-12-19 12:42:37,788 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-19 12:42:37,788 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-19 12:42:37,789 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-19 12:42:37,807 - ERROR - Failed to generate wordcloud: cannot open resource
+2024-12-19 12:42:37,808 - INFO - 192.168.0.116 - - [19/Dec/2024 12:42:37] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-19 12:42:37,884 - INFO - 워드클라우드 생성 요청을 처리합니다.
+2024-12-19 12:42:37,886 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 12:42:38,005 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%ED%99%98%EA%B2%BD&display=5&start=1&sort=date HTTP/11" 200 1423
+2024-12-19 12:42:38,006 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-19 12:42:38,007 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-19 12:42:38,008 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-19 12:42:38,008 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-19 12:42:38,033 - ERROR - Failed to generate wordcloud: cannot open resource
+2024-12-19 12:42:38,033 - INFO - 192.168.0.116 - - [19/Dec/2024 12:42:38] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-19 12:44:36,980 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-19 12:44:37,039 - INFO -  * Restarting with stat
+2024-12-19 12:44:37,295 - WARNING -  * Debugger is active!
+2024-12-19 12:44:37,301 - INFO -  * Debugger PIN: 776-930-596
+2024-12-19 12:45:20,809 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-19 12:45:20,875 - INFO -  * Restarting with stat
+2024-12-19 12:45:21,141 - WARNING -  * Debugger is active!
+2024-12-19 12:45:21,146 - INFO -  * Debugger PIN: 776-930-596
+2024-12-19 12:45:22,681 - INFO - 워드클라우드 생성 요청을 처리합니다.
+2024-12-19 12:45:22,682 - INFO - 뉴스 리스트 요청을 처리합니다.
+2024-12-19 12:45:22,695 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 12:45:22,695 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 12:45:22,808 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%ED%99%98%EA%B2%BD&display=5&start=1&sort=date HTTP/11" 200 1540
+2024-12-19 12:45:22,809 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-19 12:45:22,813 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%ED%99%98%EA%B2%BD&display=10&start=1&sort=date HTTP/11" 200 2664
+2024-12-19 12:45:22,815 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-19 12:45:22,816 - INFO - 192.168.0.116 - - [19/Dec/2024 12:45:22] "GET /api/news HTTP/1.1" 200 -
+2024-12-19 12:45:22,823 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-19 12:45:22,824 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-19 12:45:22,824 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-19 12:45:23,092 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-19 12:45:23,092 - INFO - 192.168.0.116 - - [19/Dec/2024 12:45:23] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-19 12:45:23,118 - INFO - 워드클라우드 생성 요청을 처리합니다.
+2024-12-19 12:45:23,119 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 12:45:23,169 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%ED%99%98%EA%B2%BD&display=5&start=1&sort=date HTTP/11" 200 1540
+2024-12-19 12:45:23,170 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-19 12:45:23,170 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-19 12:45:23,170 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-19 12:45:23,170 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-19 12:45:23,382 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-19 12:45:23,382 - INFO - 192.168.0.116 - - [19/Dec/2024 12:45:23] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-19 12:46:02,659 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-19 12:46:02,709 - INFO -  * Restarting with stat
+2024-12-19 12:46:02,888 - WARNING -  * Debugger is active!
+2024-12-19 12:46:02,894 - INFO -  * Debugger PIN: 776-930-596
+2024-12-19 12:47:30,920 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-19 12:47:30,981 - INFO -  * Restarting with stat
+2024-12-19 12:47:31,161 - WARNING -  * Debugger is active!
+2024-12-19 12:47:31,167 - INFO -  * Debugger PIN: 776-930-596
+2024-12-19 12:48:35,978 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-19 12:48:36,039 - INFO -  * Restarting with stat
+2024-12-19 12:48:36,289 - WARNING -  * Debugger is active!
+2024-12-19 12:48:36,294 - INFO -  * Debugger PIN: 776-930-596
+2024-12-19 12:49:26,918 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-19 12:49:26,994 - INFO -  * Restarting with stat
+2024-12-19 12:49:27,260 - WARNING -  * Debugger is active!
+2024-12-19 12:49:27,265 - INFO -  * Debugger PIN: 776-930-596
+2024-12-19 12:49:28,515 - INFO - 워드클라우드 생성 요청을 처리합니다.
+2024-12-19 12:49:28,517 - INFO - 뉴스 리스트 요청을 처리합니다.
+2024-12-19 12:49:28,524 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 12:49:28,525 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 12:49:28,627 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%ED%95%A0%EB%A8%B8%EB%8B%88&display=10&start=1&sort=date HTTP/11" 200 2822
+2024-12-19 12:49:28,628 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-19 12:49:28,629 - INFO - 192.168.0.116 - - [19/Dec/2024 12:49:28] "GET /api/news HTTP/1.1" 200 -
+2024-12-19 12:49:28,641 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%ED%95%A0%EB%A8%B8%EB%8B%88&display=5&start=1&sort=date HTTP/11" 200 1716
+2024-12-19 12:49:28,642 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-19 12:49:28,653 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-19 12:49:28,653 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-19 12:49:28,654 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-19 12:49:28,917 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-19 12:49:28,918 - INFO - 192.168.0.116 - - [19/Dec/2024 12:49:28] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-19 12:49:28,950 - INFO - 워드클라우드 생성 요청을 처리합니다.
+2024-12-19 12:49:28,950 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 12:49:29,047 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%ED%95%A0%EB%A8%B8%EB%8B%88&display=5&start=1&sort=date HTTP/11" 200 1715
+2024-12-19 12:49:29,048 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-19 12:49:29,048 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-19 12:49:29,049 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-19 12:49:29,049 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-19 12:49:29,295 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-19 12:49:29,295 - INFO - 192.168.0.116 - - [19/Dec/2024 12:49:29] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-19 12:50:01,708 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/word_cloud/main/wordCloud_tree.py', reloading
+2024-12-19 12:50:01,762 - INFO -  * Restarting with stat
+2024-12-19 12:50:02,025 - WARNING -  * Debugger is active!
+2024-12-19 12:50:02,031 - INFO -  * Debugger PIN: 776-930-596
