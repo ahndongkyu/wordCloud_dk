@@ -293,3 +293,29 @@
 2024-12-18 20:00:28,901 - DEBUG - STREAM b'IDAT' 54 8192
 2024-12-18 20:00:29,125 - INFO - 워드클라우드 이미지 생성 완료
 2024-12-18 20:00:29,125 - INFO - 192.168.0.116 - - [18/Dec/2024 20:00:29] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-19 10:15:20,891 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.116:5001
+2024-12-19 10:15:20,892 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-19 10:15:20,892 - INFO -  * Restarting with stat
+2024-12-19 10:15:21,069 - WARNING -  * Debugger is active!
+2024-12-19 10:15:21,075 - INFO -  * Debugger PIN: 776-930-596
+2024-12-19 10:15:45,431 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-19 10:15:45,448 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 10:15:45,531 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1436
+2024-12-19 10:15:45,533 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-19 10:15:45,559 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-19 10:15:45,560 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-19 10:15:45,560 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-19 10:15:45,847 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-19 10:15:45,848 - INFO - 192.168.0.116 - - [19/Dec/2024 10:15:45] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-19 10:15:45,874 - INFO - 네이버 뉴스 API를 사용하여 '분리수거' 키워드를 검색합니다.
+2024-12-19 10:15:45,875 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-19 10:15:45,936 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&sort=date HTTP/11" 200 1436
+2024-12-19 10:15:45,936 - INFO - 네이버 뉴스 API에서 데이터를 성공적으로 가져왔습니다.
+2024-12-19 10:15:45,936 - DEBUG - STREAM b'IHDR' 16 13
+2024-12-19 10:15:45,936 - DEBUG - STREAM b'sRGB' 41 1
+2024-12-19 10:15:45,936 - DEBUG - STREAM b'IDAT' 54 8192
+2024-12-19 10:15:46,176 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-19 10:15:46,176 - INFO - 192.168.0.116 - - [19/Dec/2024 10:15:46] "GET /api/wordcloud HTTP/1.1" 200 -
